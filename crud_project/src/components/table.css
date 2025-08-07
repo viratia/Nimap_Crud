@@ -1,0 +1,68 @@
+/* styles/table.css */
+.tableContainer {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.tableHeader th {
+  text-align: left;
+  padding: 12px 16px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+
+.tableBody td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  vertical-align: top;
+}
+
+.tableBody tr:last-child td {
+  border-bottom: none;
+}
+
+.editButton,
+.deleteButton {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 8px;
+  transition: color 0.2s ease-in-out;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.deleteButton {
+  color: #ef4444;
+}
+
+.deleteButton:hover {
+  color: #dc2626;
+}
+
+.noCategoriesMessage, 
+.noProductsMessage {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-style: italic;
+}

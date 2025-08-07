@@ -1,0 +1,64 @@
+/* styles/form.css */
+.formContainer {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.cardTitle {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.formLabel {
+  display: block;
+  font-size:15px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.formControl:focus {
+  outline: none;
+  border-color: #3b82f6; 
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); 
+}
+
+.textareaControl {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.submitButton {
+  background-color: #3b82f6; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: #2563eb; 
+}
